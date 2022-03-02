@@ -134,7 +134,7 @@ body main article.book {
   position: relative;
   -ms-flex-preferred-size: 360px;
       flex-basis: 360px;
-  min-width: 340px;
+  min-width: 300px;
   height: 430px;
   padding: 40px;
   color: var(--secondary-color);
@@ -155,11 +155,11 @@ body main article.book div.number {
           align-items: center;
   width: 40px;
   height: 40px;
-  top: 0;
+  top: -3px;
   right: 0;
 }
 
-body main article.book div.number p {
+body main article.book div.number p.no {
   color: var(--secondary-color);
   font-size: 24px;
   font-weight: 700;
@@ -174,7 +174,6 @@ body main article.book p.sub {
 }
 
 body main article.book h2.title {
-  height: 90px;
   font-size: 36px;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
@@ -205,16 +204,17 @@ body main article.book button {
   top: 440px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding-right: 5px;
+  padding: 0 5px 0 0;
   border: none;
 }
 
 body main article.book button p.buttonText {
-  font-weight: 700;
   font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: lowercase;
 }
 
-body main article.book button p.buttonIcon .material-icons {
+body main article.book button .material-icons {
   font-size: 18px;
 }
 
